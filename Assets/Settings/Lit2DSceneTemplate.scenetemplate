@@ -10,10 +10,8 @@ Texture2D:
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 3eb422a44b812e16b34078a6083bea48
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
   m_IsAlphaChannelOptional: 1
-  serializedVersion: 2
+  serializedVersion: 4
   m_Width: 1068
   m_Height: 615
   m_CompleteImageSize: 1970460
@@ -22,7 +20,8 @@ Texture2D:
   m_MipCount: 1
   m_IsReadable: 1
   m_IsPreProcessed: 0
-  m_IgnoreMasterTextureLimit: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
   m_StreamingMipmaps: 0
   m_StreamingMipmapsPriority: 0
   m_VTOnly: 0
@@ -65,7 +64,28 @@ MonoBehaviour:
     the 2D Renderer in Universal RP.
   preview: {fileID: -3604256930052969394}
   dependencies:
-  - dependency: {fileID: 2800000, guid: b3ab972b21db85d48ade9657efdd4771, type: 3}
+  - dependency: {fileID: -944628639613478452, guid: d0f17c30dbcf6a14a80e0a9a1c00a0bb, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 7400000, guid: 6eb6ae8a8e7ceb14d9a6a7e41e8591f8, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: ceb1f68cad976784cbf67c92fdc58111, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: cf876f250e2f80d45b6b2a1c7e86d324, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: 5e4b16970710d4f42ad00d8fb0cfee63, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 9100000, guid: 53da5ceb4d195fa479e5d7ca10bcb43c, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: 64f76a25355c26d4ca0b0f4b91930b6b, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: 94ce399a914f4674eb54de197adf90cb, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 40265a896a0f341bb956e90c59025a29, type: 3}
     instantiationMode: 1
   templatePipeline: {fileID: 0}
+  badge: {fileID: 0}
   addToDefaults: 1
